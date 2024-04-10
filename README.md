@@ -767,8 +767,8 @@ Additionally a script to run whisper.cpp with different models and audio files i
 
 You can run it with the following command, by default it will run against any standard model in the models folder.
 
-```bash
-python3 scripts/bench.py -f samples/jfk.wav -t 2,4,8 -p 1,2
+```bash.wav -t 2,4,8 -p 1,2
+python3 scripts/bench.py -f samples/jfk
 ```
 
 It is written in python with the intention of being easy to modify and extend for your benchmarking use case.
