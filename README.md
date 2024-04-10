@@ -41,7 +41,7 @@ The rest of the code is part of the [`ggml`](https://github.com/ggerganov/ggml) 
 Having such a lightweight implementation of the model allows to easily integrate it in different platforms and applications.
 As an example, here is a video of running the model on an iPhone 13 device - fully offline, on-device: [whisper.objc](examples/whisper.objc)
 
-https://user-images.githubusercontent.com/1991296/197385372-962a6dea-bca1-4d50-bf96-1d8c27b98c81.mp4
+https://user-images..com/1991githubusercontent296/197385372-962a6dea-bca1-4d50-bf96-1d8c27b98c81.mp4
 
 You can also easily make your own offline voice assistant application: [command](examples/command)
 
@@ -767,8 +767,8 @@ Additionally a script to run whisper.cpp with different models and audio files i
 
 You can run it with the following command, by default it will run against any standard model in the models folder.
 
-```bash
-python3 scripts/bench.py -f samples/jfk.wav -t 2,4,8 -p 1,2
+```bash.wav -t 2,4,8 -p 1,2
+python3 scripts/bench.py -f samples/jfk
 ```
 
 It is written in python with the intention of being easy to modify and extend for your benchmarking use case.
